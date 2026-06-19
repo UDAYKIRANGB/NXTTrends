@@ -95,7 +95,7 @@ npm start
 ---
 
 ## 👨‍💻 Author
-Uday Kiran  
+**Uday Kiran GB**
 GitHub: https://github.com/UDAYKIRANGB
 
 
