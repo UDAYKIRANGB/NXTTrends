@@ -30,6 +30,20 @@ A React-based e-commerce web application with authentication and cart functional
 - Clear cart
 - Order total calculation
 
+## 💳 Payment Popup Feature
+
+- Integrated payment popup modal in Cart Summary
+- Displays multiple payment methods
+- Cash on Delivery option enabled
+- Confirm Order button activates after selecting Cash on delivery
+- Success message displayed after order confirmation
+- Popup close functionality
+
+## 🌐 Live Demo
+
+**Deployment Link:** [[[Add Your Deployment URL Here]]](https://gbudaynxttrendz.ccbp.tech/)
+
+
 ---
 
 ## 🛠️ Tech Stack
