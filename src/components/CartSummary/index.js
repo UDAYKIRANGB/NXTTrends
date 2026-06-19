@@ -1,6 +1,10 @@
+import Popup from 'reactjs-popup'
+import 'reactjs-popup/dist/index.css'
+
 import './index.css'
 
 import CartContext from '../../context/CartContext'
+import PaymentPopup from '../PaymentPopup'
 
 const CartSummary = () => (
   <CartContext.Consumer>
@@ -17,7 +21,22 @@ const CartSummary = () => (
             Order Total: <span className="price">Rs {totalAmount}</span>
           </h1>
           <p className="checkout-details">{cartList.length} Items in Cart</p>
-          <button className="button">Checkout</button>
+          <Popup
+            modal
+            trigger={
+              <button type="button" data-testid="checkout-button" className="button">
+                Checkout
+              </button>
+            }
+          >
+            {close => (
+              <PaymentPopup
+                totalAmount={totalAmount}
+                totalItems={cartList.length}
+                close={close}
+              />
+            )}
+          </Popup>
         </div>
       )
     }}
