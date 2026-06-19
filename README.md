@@ -41,7 +41,7 @@ A React-based e-commerce web application with authentication and cart functional
 
 ## 🌐 Live Demo
 
-**Deployment Link:** [[[Add Your Deployment URL Here]]](https://gbudaynxttrendz.ccbp.tech/)
+**Deployment Link:** [gbudaynxttrendz.ccbp.tech](https://gbudaynxttrendz.ccbp.tech/)
 
 
 ---
